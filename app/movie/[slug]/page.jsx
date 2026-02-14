@@ -104,7 +104,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: movieData.title,
       description: movieData.overview || `Detailed information for movie ${movieData.title}`,
-      url: `https://himovies123.vercel.app/movie/${slug}`,
+      url: `https://himovies123.netlify.app/movie/${slug}`,
       siteName: 'Himovies',
       images: [
         {
